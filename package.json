@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "git+https://github.com/NukeManDan/pba-template-reveal-md.git"
   },
-  "author": "",
+  "author": "Dan Shields (NukeManDan)",
   "license": "ISC",
   "bugs": {
-    "url": "https://substrate.io"
+    "url": "https://github.com/NukeManDan/pba-template-reveal-md/"
   },
   "homepage": "",
   "dependencies": {

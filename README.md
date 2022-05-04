@@ -2,13 +2,29 @@
 
 ## Install
 
-If you only want to use `reveal-md` in the context of this project, you only need to:
+Only dependency is `reveal-md`. One of the two commands will work:
 
 ```sh
+# If you want it only locally
 npm i
+# Globally
+npm npm install --global reveal-md
 ```
 
-But if you would
+## Live Server
+
+This will watch for local file changes:
+
+```sh
+npm start
+```
+
+## Build & Deploy
+
+This overwrites the `docs` folder with a static site of all `.md` files in `SILDES/*`.
+This can be used in github pages. Push any changes in this folder to `main` to have github pages deploy it live.
+
+> A live site is available [here](https://nukemandan.github.io/pba-template-reveal-md/) based on the `main` branch [here](https://github.com/NukeManDan/pba-template-reveal-md/)
 
 ## Custom Theme & CSS
 
@@ -19,10 +35,12 @@ For simple css build on top of a theme, [use a css file](https://github.com/webp
 
 ## TODO
 
-- [ ] set a ` --listing-template <filename>           Template file for listing` used in the top level page for all slide decks (eventually replace with a popper nav in a more complete mono repo of materials for the academy)
+- [ ] set a ` --listing-template <filename> Template file for listing` used in the top level page for all slide decks (eventually replace with a popper nav in a more complete mono repo of materials for the academy)
+- [ ] Fix background
+- [ ] Get 2 colum working
 
 
 ## Inspiration
 
 - https://teaching.mrsharky.com/sdsu_fall_2020_lecture08.html#/7/4/8
-- 
+-
