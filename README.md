@@ -38,6 +38,7 @@ For simple css build on top of a theme, [use a css file](https://github.com/webp
 - [ ] set a ` --listing-template <filename> Template file for listing` used in the top level page for all slide decks (eventually replace with a popper nav in a more complete mono repo of materials for the academy)
 - [ ] Fix background
 - [ ] Get 2 colum working
+- [ ] favicon.ico working
 
 
 ## Inspiration

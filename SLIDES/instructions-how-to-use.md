@@ -25,8 +25,9 @@ Try doing down a slide.
 > Press the `s` key to bring up a popup window with speaker view
 
 Note:
- This is a note just for you. Set under a line in your slide starting with `Note:`
- all subsequent lines are just seen in speaker view.  
+This is a note just for you.
+Set under a line in your slide starting with "`Note`:" 
+all subsequent lines are just seen in speaker view.
 
 ---
 
