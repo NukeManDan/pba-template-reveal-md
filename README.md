@@ -25,7 +25,7 @@ This overwrites the `docs` folder with a static site of all `.md` files in `SLID
 This can be used in github pages. Push any changes in this folder to `main` to have github pages deploy it live:
 
 ```sh
-npm build
+npm run build
 ```
 
 > A live site is available [here](https://nukemandan.github.io/pba-template-reveal-md/) based on the `main` branch [here](https://github.com/NukeManDan/pba-template-reveal-md/)
